@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+ 
+header.header
+  h1.header__h1 Online Collab Edit
+.doc
+  .doc__background-ribbon
+  #doc.doc__text-editor(contenteditable='true')
